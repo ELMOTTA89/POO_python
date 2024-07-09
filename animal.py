@@ -26,3 +26,7 @@ class Animal:
         else:
             self.__weight=weight
     
+    def __str__(self,animal) -> str:
+        print(animal.get_size())
+        print(animal.get_weight())
+    

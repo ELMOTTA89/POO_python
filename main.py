@@ -10,7 +10,7 @@ if __name__=="__main__":
     A1=Animal(18,15)
     S1=serpent(1,2)
     O1=Oiseaux(100,200,300)
-    Z=zoo([Oiseaux,serpent])
+    Z=zoo([O1,S1])
 
     print("size=",A1.get_size())
     print("wieght=",A1.get_weight())
@@ -22,8 +22,9 @@ if __name__=="__main__":
     print("wieght=",O1.get_weight())
     print("altitude=",O1.get_altitude_max())
     #O1.set_size(-2)
-    Z.add_animal(serpent)
-    #Z.show_an()
+    Z.add_animal(S1)
+    Z.show_an()
+    
     
 
 
